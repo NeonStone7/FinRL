@@ -193,7 +193,7 @@ class DRLEnsembleAgent:
             tensorboard_log=f"{config.TENSORBOARD_LOG_DIR}/{model_name}",
             verbose=verbose,
             policy_kwargs=policy_kwargs,
-            seed=seed,
+            seed=None,
             **temp_model_kwargs,
         )
 
