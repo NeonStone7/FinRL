@@ -95,7 +95,7 @@ class DRLAgent:
             tensorboard_log=tensorboard_log,
             verbose=verbose,
             policy_kwargs=policy_kwargs,
-            seed=seed,
+            seed=None,
             **model_kwargs,
         )
 
